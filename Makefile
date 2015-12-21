@@ -5,20 +5,22 @@
 ## Login   <rinaz_a@epitech.net>
 ## 
 ## Started on  Fri Dec  4 16:34:29 2015 selim rinaz
-## Last update Tue Dec 15 10:33:48 2015 
+## Last update Mon Dec 21 22:13:43 2015 
 ##
 
 CC	= gcc -g
 
 RM	= rm -f
 
-#CFLAGS	+= -Wextra -Wall -Werror
+CFLAGS	+= -Wextra -Wall -Werror
 #CFLAGS	+=-ansi -pedantic
 #CFLAGS	+= -I.
 
 NAME	= bsq
 
-SRCS	= my_essentials.c	\
+SRCS	= my_essentials.c \
+	  move_to_2d.c \
+	  goto_int_2d.c \
 	  bsq.c
 
 OBJS	= $(SRCS:.c=.o)

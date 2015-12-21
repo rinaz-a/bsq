@@ -5,7 +5,7 @@
 ** Login   <rinaz_a@epitech.net>
 ** 
 ** Started on  Mon Dec 14 17:25:12 2015 selim rinaz
-** Last update Sat Dec 19 16:40:43 2015 
+** Last update Mon Dec 21 22:16:18 2015 
 */
 
 #ifndef BSQ_H_
@@ -34,5 +34,13 @@ int		my_strlen(char *str);
 void		my_putchar(char c);
 void		my_putstr(char *str);
 void		my_puterr(char *str);
+void		put_my_square(t_bsq *data);
+void		lines_counter(char *str, t_bsq *data);
+void		create_int_2d(t_bsq *data);
+int		map_to_int(int x, int y, t_bsq *data);
+int		second_fill(int x, int y, t_bsq *data);
+int		first_fill(char c, int x, int y, t_bsq *data);
+void		create_tab_2d(char *buf, t_bsq *data, int x, int y);
+void		check_map(char *buf);
 
 #endif /* !BSQ_H_ */
